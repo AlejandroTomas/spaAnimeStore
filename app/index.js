@@ -84,22 +84,27 @@ document.addEventListener('click',e=>{
     
     //Btn al seleccionar algun item del slider de nuevos estrenos
     if(e.target.matches(".item-estreno")){
-
         if(body.classList.contains("dark")){
             
         }else{
             body.classList.add("red")
         }
-
-        let $img = e.target.dataset.img;
-        body.style.backgroundImage=`url("${$img}")`
-    }
-
-/* **************** Ir a post de favoritos **************** */
-    if(e.target.matches(".click-fav")){
         
-    }
+        /* Datos del componente */
+        let img = e.target.dataset.img;
+        let title = e.target.dataset.title;
+        let percentage = e.target.dataset.percentage;
+        let playTime = e.target.dataset.time;
+        /* Cambio de texto */
+        const $titleImgBack=d.getElementById("title-statistics"),
+            $playImg=d.querySelector("#play-statistics > span"),
+            $extraImg=d.querySelector("#extra-statistics > span")
 
+        body.style.backgroundImage=`url("${img}")`
+        $titleImgBack.textContent=title;
+        $playImg.textContent=playTime;
+        $extraImg.textContent=percentage;
+    }
 
 /* **************** Sacar menu y fav en tablet **************** */
     let menu = document.querySelector(".menu");
@@ -124,7 +129,44 @@ document.addEventListener('click',e=>{
         }
     }
 
+/* **************** Cambio de imagen de la noticia del dia **************** */
+    let dataImage = e.target.querySelector("img"),
+    target = d.querySelector("#new-of-day > img");
+
+    if(e.target.matches(".item-bottom-rigth")){
+        target.style.objectPosition="center"
+        target.src=dataImage.getAttribute("src")
+    }
+
+    if(e.target.matches("#return")){
+        target.src=e.target.dataset.reset;
+        target.style.objectPosition="top"
+    }
+    
+
+/* **************** Ir a post de favoritos **************** */
+    if(e.target.matches(".click-fav")){
+        if(body.classList.contains("red")){ //Si no tiene una clase dark agregar la clase red
+            body.classList.remove("red")
+            body.style.backgroundImage=`url("")`
+        }
+        location.hash=`#/name?=${e.target.dataset.idpost}`
+    }
+
+/* **************** Ir a post de favoritos **************** */
+    if(e.target.matches("#btn-watch")){
+        location.hash=`#/name?=${e.target.dataset.idpost}`
+    }
+
+    if(e.target.matches(".item-new-post") 
+    || e.target.matches(".item-best-post") 
+    || e.target.matches(".item-favorite-post")
+    || e.target.matches(".content-title-post")){
+        console.log("hl")
+
+        location.hash=`/#/name?=${e.target.dataset.idpost}`
+    }
+
     //console.log(e.target)
 });
 
-document.addEventListener('mouseover',(e)=>{})

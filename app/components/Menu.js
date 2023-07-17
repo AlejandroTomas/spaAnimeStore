@@ -1,22 +1,22 @@
 export function Menu(){
     const $menu = `
     <nav class="menu">
-            <h1>Blog de Anime</h1>
+            <h1>Regalazo Nt</h1>
             <div class="wrapper-all-section">
                 <secction class="section-menu-normal">
                     <h2>Menu</h2>
                     <ul>
-                        <li><a href="#/" id="home-menu"><i class="fas fa-home"></i>Home</a></li>
+                        <li><a href="#/" id="home-menu"><i class="fas fa-home"></i>Inicio</a></li>
                         <li><a href="#/follow" id="follow-menu"><i class="fab fa-gratipay"></i>Seguidos</a></li>
-                        <li><a href="#/estrenos" id="start"><i class="far fa-calendar-alt"></i>Nuevos Estrenos</a></li>
+                        <li><a href="#/estrenos" id="start"><i class="far fa-calendar-alt"></i>Nuevos</a></li>
                     </ul>
                 </secction>
 
                 <secction class="section-menu-social">
-                    <h2>Sugerencias</h2>
+                    <h2>Sugerencias de productos</h2>
                     <ul>
-                        <li><i class="fas fa-play-circle"></i></i>TioAnime</li>
-                        <li><i class="fas fa-play-circle"></i></i>AnimeFLV</li>
+                        <li><i class="fas fa-play-circle"></i></i>Como escoger</li>
+                        <li><i class="fas fa-play-circle"></i></i>Famosos</li>
                     </ul>
 
                 </secction>

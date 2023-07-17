@@ -6,7 +6,8 @@ export function Header(){
             <i class="fas fa-chevron-right"></i>
                 <label for="search">
                     <i class="fas fa-search"></i>
-                    <input type="search" name="search" id="serach" placeholder="Buscar..">
+                    <input type="search" name="search" id="serach" placeholder="Buscar..." autocomplete="off"
+                    >
                 </label>
             
             </div>
@@ -15,11 +16,11 @@ export function Header(){
                 <i class="far fa-comment-dots"></i>
                 <div class="container-user">
                     <div class="img-user-container">
-                        <img src="https://i.ibb.co/0YS95qz/11s7000600qqrs9qr8n9.jpg" alt="user-nakamura">
+                        <img class="img-lazy" data-src="https://i.ibb.co/0YS95qz/11s7000600qqrs9qr8n9.jpg" alt="user-nakamura">
                     </div>
                     <div class="info-user-container">
-                        <span id="user-name">Nakamura Tina</span>
-                        <span id="user-level">Level 12</span>
+                        <span id="user-name">Regalazo Nt</span>
+                        <span id="user-level">. . .</span>
                     </div>
                     <span id="comodin"></span>
                 </div>
@@ -47,7 +48,7 @@ export function Header(){
                 <i class="far fa-comment-dots"></i>
                 <div class="container-user">
                     <div class="img-user-container">
-                        <img src="https://i.ibb.co/0YS95qz/11s7000600qqrs9qr8n9.jpg" alt="user-nakamura">
+                        <img class="img-lazy" data-src="https://i.ibb.co/0YS95qz/11s7000600qqrs9qr8n9.jpg" alt="user-nakamura">
                     </div>
                     <div class="info-user-container">
                         <span id="user-name">Nakamura Tina</span>
@@ -65,7 +66,7 @@ export function Header(){
                 <i class="fas fa-bars" id="menu-tablet"></i>
             </div>
             <div class="container-search">
-                <img src="./app/assets/apple-icon-57x57.png" alt="">
+                <img class="img-lazy" data-src="./app/assets/apple-icon-57x57.png" alt="">
                 <h1>Blog de Anime</h1>
                 <i class="fas fa-chevron-left"></i>
                 <i class="fas fa-chevron-right"></i>
@@ -85,7 +86,7 @@ export function Header(){
                 <i class="fas fa-bars" id="menu-tablet"></i>
             </div>
             <div class="container-search">
-                <img src="./app/assets/apple-icon-57x57.png" alt="">
+                <img class="img-lazy" data-src="./app/assets/apple-icon-57x57.png" alt="">
                 <h1>Blog de Anime</h1>
             </div>
             <div class="container-alert">
@@ -103,7 +104,8 @@ export function Header(){
                 <i class="fas fa-bars" id="menu-tablet"></i>
             </div>
             <div class="container-search">
-                <img src="./app/assets/apple-icon-57x57.png" alt="">
+                <img class="img-lazy" data-src="./app/assets/apple-icon-57x57.png" alt="">
+                <h1>Blog de Anime</h1>
             </div>
             <div class="container-alert">
                 <i class="far fa-star" id="btn-fav-open"></i>

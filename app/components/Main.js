@@ -3,7 +3,7 @@ export function Main(){
     <main class="mainHome">
             <div id="new-of-day">
                 <!-- Nueva noticia -->
-                <img src="https://i.ibb.co/VYDk6Fj/wallpaperflare-com-wallpaper-5.jpg" alt="">
+                <img class="img-lazy" data-src="https://i.ibb.co/VYDk6Fj/wallpaperflare-com-wallpaper-5.jpg" alt="">
                 <div class="new-info-wrapper">
                 <div class="info-top">
                     <p>
@@ -19,43 +19,45 @@ export function Main(){
                             <span>2 Seasons</span>
                         </p>
                         <div class="bottom-btns">
-                            <button id="btn-watch">Watch</button>
+                            <button id="btn-watch" data-idpost="Soldier-of-sinder">Watch</button>
                             <button id="btn-more"><i class="fas fa-plus"></i></button>
                         </div>
                     </div>
                     <div class="info-bottom-rigth">
                         <div class="item-bottom-rigth">
-                            <img src="https://i.ibb.co/23d3GbF/wallpaperflare-com-wallpaper-10.jpg" alt="">
+                            <img class="img-lazy" data-src="https://i.ibb.co/23d3GbF/wallpaperflare-com-wallpaper-10.jpg" alt="">
                         </div>
                         <div class="item-bottom-rigth">
-                            <img src="https://i.ibb.co/4M92tm8/wallpaperflare-com-wallpaper-4.jpg" alt="">
+                            <img class="img-lazy" data-src="https://i.ibb.co/4M92tm8/wallpaperflare-com-wallpaper-4.jpg" alt="">
                         </div>
                         <div class="item-bottom-rigth">
-                            <img src="https://i.ibb.co/yRKcCzX/wallpaperflare-com-wallpaper-6.jpg" alt="">
+                            <img class="img-lazy" data-src="https://i.ibb.co/yRKcCzX/wallpaperflare-com-wallpaper-6.jpg" alt="">
                         </div>
                     </div>
                 </div>
                 </div>
+                <i class="fas fa-undo-alt" id="return" data-reset="https://i.ibb.co/VYDk6Fj/wallpaperflare-com-wallpaper-5.jpg"></i>
             </div>
 
 
 
 
             <div class="wrapper-new-post">
-                <!-- Noticias de anime -->
-                <h2>New Post</h2>
+                <!-- Noticias de productos -->
+                <h2>Mas vistos</h2>
                 <div class="new-post-container">
                     <div class="slide">
-                        <div class="item-new-post">
-                            
+
+                        <div class="item-new-post" data-idpost="Life-strange">
+
                             <div class="new-post-top">
                                 <div class="post-top-image">
-                                    <img src="https://i.ibb.co/0mkCTPd/wallpaperflare-com-wallpaper-7.jpg" alt="">
+                                    <img class="img-lazy" data-src="https://i.ibb.co/0mkCTPd/wallpaperflare-com-wallpaper-7.jpg" alt="">
                                 </div>
                                 <div class="post-top-same">
-                                    <div class="item-same-top"><img src="https://i.ibb.co/4M92tm8/wallpaperflare-com-wallpaper-4.jpg" alt=""></div>
-                                    <div class="item-same-top"><img src="https://i.ibb.co/yRKcCzX/wallpaperflare-com-wallpaper-6.jpg" alt=""></div>
-                                    <div class="item-same-top"><img src="https://i.ibb.co/4M92tm8/wallpaperflare-com-wallpaper-4.jpg" alt=""></div>
+                                    <div class="item-same-top"><img class="img-lazy" data-src="https://i.ibb.co/4M92tm8/wallpaperflare-com-wallpaper-4.jpg" alt=""></div>
+                                    <div class="item-same-top"><img class="img-lazy" data-src="https://i.ibb.co/yRKcCzX/wallpaperflare-com-wallpaper-6.jpg" alt=""></div>
+                                    <div class="item-same-top"><img class="img-lazy" data-src="https://i.ibb.co/4M92tm8/wallpaperflare-com-wallpaper-4.jpg" alt=""></div>
                                 </div>
                             </div>
 
@@ -70,12 +72,12 @@ export function Main(){
 
                             <div class="new-post-top">
                                 <div class="post-top-image">
-                                    <img src="https://i.ibb.co/yRKcCzX/wallpaperflare-com-wallpaper-6.jpg" alt="">
+                                    <img class="img-lazy" data-src="https://i.ibb.co/yRKcCzX/wallpaperflare-com-wallpaper-6.jpg" alt="">
                                 </div>
                                 <div class="post-top-same">
-                                    <div class="item-same-top"><img src="https://i.ibb.co/yRKcCzX/wallpaperflare-com-wallpaper-6.jpg" alt=""></div>
-                                    <div class="item-same-top"><img src="https://i.ibb.co/4M92tm8/wallpaperflare-com-wallpaper-4.jpg" alt=""></div>
-                                    <div class="item-same-top"><img src="https://i.ibb.co/yRKcCzX/wallpaperflare-com-wallpaper-6.jpg" alt=""></div>
+                                    <div class="item-same-top"><img class="img-lazy" data-src="https://i.ibb.co/yRKcCzX/wallpaperflare-com-wallpaper-6.jpg" alt=""></div>
+                                    <div class="item-same-top"><img class="img-lazy" data-src="https://i.ibb.co/4M92tm8/wallpaperflare-com-wallpaper-4.jpg" alt=""></div>
+                                    <div class="item-same-top"><img class="img-lazy" data-src="https://i.ibb.co/yRKcCzX/wallpaperflare-com-wallpaper-6.jpg" alt=""></div>
                                 </div>
                             </div>
                             
@@ -89,12 +91,12 @@ export function Main(){
                         <div class="item-new-post">
                             <div class="new-post-top">
                                 <div class="post-top-image">
-                                    <img src="https://i.ibb.co/Lzfsf8L/wallpaperflare-com-wallpaper-51.jpg" alt="">
+                                    <img class="img-lazy" data-src="https://i.ibb.co/Lzfsf8L/wallpaperflare-com-wallpaper-51.jpg" alt="">
                                 </div>
                                 <div class="post-top-same">
-                                    <div class="item-same-top"><img src="https://i.ibb.co/4M92tm8/wallpaperflare-com-wallpaper-4.jpg" alt=""></div>
-                                    <div class="item-same-top"><img src="https://i.ibb.co/yRKcCzX/wallpaperflare-com-wallpaper-6.jpg" alt=""></div>
-                                    <div class="item-same-top"><img src="https://i.ibb.co/4M92tm8/wallpaperflare-com-wallpaper-4.jpg" alt=""></div>
+                                    <div class="item-same-top"><img class="img-lazy" data-src="https://i.ibb.co/4M92tm8/wallpaperflare-com-wallpaper-4.jpg" alt=""></div>
+                                    <div class="item-same-top"><img class="img-lazy" data-src="https://i.ibb.co/yRKcCzX/wallpaperflare-com-wallpaper-6.jpg" alt=""></div>
+                                    <div class="item-same-top"><img class="img-lazy" data-src="https://i.ibb.co/4M92tm8/wallpaperflare-com-wallpaper-4.jpg" alt=""></div>
                                 </div>
                             </div>
 
@@ -107,12 +109,12 @@ export function Main(){
                         <div class="item-new-post">
                             <div class="new-post-top">
                                 <div class="post-top-image">
-                                    <img src="https://i.ibb.co/fpBtDLY/wallpaperflare-com-wallpaper-49.jpg" alt="">
+                                    <img class="img-lazy" data-src="https://i.ibb.co/fpBtDLY/wallpaperflare-com-wallpaper-49.jpg" alt="">
                                 </div>
                                 <div class="post-top-same">
-                                    <div class="item-same-top"><img src="https://i.ibb.co/4M92tm8/wallpaperflare-com-wallpaper-4.jpg" alt=""></div>
-                                    <div class="item-same-top"><img src="https://i.ibb.co/yRKcCzX/wallpaperflare-com-wallpaper-6.jpg" alt=""></div>
-                                    <div class="item-same-top"><img src="https://i.ibb.co/4M92tm8/wallpaperflare-com-wallpaper-4.jpg" alt=""></div>
+                                    <div class="item-same-top"><img class="img-lazy" data-src="https://i.ibb.co/4M92tm8/wallpaperflare-com-wallpaper-4.jpg" alt=""></div>
+                                    <div class="item-same-top"><img class="img-lazy" data-src="https://i.ibb.co/yRKcCzX/wallpaperflare-com-wallpaper-6.jpg" alt=""></div>
+                                    <div class="item-same-top"><img class="img-lazy" data-src="https://i.ibb.co/4M92tm8/wallpaperflare-com-wallpaper-4.jpg" alt=""></div>
                                 </div>
                             </div>
 
@@ -125,12 +127,12 @@ export function Main(){
                         <div class="item-new-post">
                             <div class="new-post-top">
                                 <div class="post-top-image">
-                                    <img src="https://i.ibb.co/DRKs8cq/wallpaperflare-com-wallpaper-50.jpg" alt="">
+                                    <img class="img-lazy" data-src="https://i.ibb.co/DRKs8cq/wallpaperflare-com-wallpaper-50.jpg" alt="">
                                 </div>
                                 <div class="post-top-same">
-                                    <div class="item-same-top"><img src="https://i.ibb.co/4M92tm8/wallpaperflare-com-wallpaper-4.jpg" alt=""></div>
-                                    <div class="item-same-top"><img src="https://i.ibb.co/yRKcCzX/wallpaperflare-com-wallpaper-6.jpg" alt=""></div>
-                                    <div class="item-same-top"><img src="https://i.ibb.co/4M92tm8/wallpaperflare-com-wallpaper-4.jpg" alt=""></div>
+                                    <div class="item-same-top"><img class="img-lazy" data-src="https://i.ibb.co/4M92tm8/wallpaperflare-com-wallpaper-4.jpg" alt=""></div>
+                                    <div class="item-same-top"><img class="img-lazy" data-src="https://i.ibb.co/yRKcCzX/wallpaperflare-com-wallpaper-6.jpg" alt=""></div>
+                                    <div class="item-same-top"><img class="img-lazy" data-src="https://i.ibb.co/4M92tm8/wallpaperflare-com-wallpaper-4.jpg" alt=""></div>
                                 </div>
                             </div>
 
@@ -149,14 +151,14 @@ export function Main(){
             
             <div class="best-post">
             <!-- Mejores segun fuentes -->
-                <h2>Best Post</h2>
+            <h2>Mejores Productos</h2>
                 <div class="best-post-container">
                     <div class="slide">
 
-                        <div class="item-best-post">
+                        <div class="item-best-post" data-idpost="Call-of-duty">
 
                             <div class="wrapper-img-best">
-                                <img src="https://i.ibb.co/NK2WbPn/wallpaperflare-com-wallpaper-11.jpg" alt="">
+                                <img class="img-lazy" data-src="https://i.ibb.co/NK2WbPn/wallpaperflare-com-wallpaper-11.jpg" alt="">
                                 <span id="label-best">10px</span>
                             </div>
                             <div class="wrapper-info-best">
@@ -169,7 +171,7 @@ export function Main(){
                         <div class="item-best-post">
 
                             <div class="wrapper-img-best">
-                                <img src="https://i.ibb.co/VYDk6Fj/wallpaperflare-com-wallpaper-5.jpg" alt="">
+                                <img class="img-lazy" data-src="https://i.ibb.co/VYDk6Fj/wallpaperflare-com-wallpaper-5.jpg" alt="">
                                 <span id="label-best">10px</span>
                             </div>
                             <div class="wrapper-info-best">
@@ -181,7 +183,7 @@ export function Main(){
 
                         <div class="item-best-post">
                             <div class="wrapper-img-best">
-                                <img src="https://i.ibb.co/8dtqfqL/wallpaperflare-com-wallpaper-46.jpg" alt="">
+                                <img class="img-lazy" data-src="https://i.ibb.co/8dtqfqL/wallpaperflare-com-wallpaper-46.jpg" alt="">
                                 <span id="label-best">10px</span>
                             </div>
                             <div class="wrapper-info-best">
@@ -192,7 +194,7 @@ export function Main(){
 
                         <div class="item-best-post">
                             <div class="wrapper-img-best">
-                                <img src="https://i.ibb.co/883Bbwx/wallpaperflare-com-wallpaper-48.jpg" alt="">
+                                <img class="img-lazy" data-src="https://i.ibb.co/883Bbwx/wallpaperflare-com-wallpaper-48.jpg" alt="">
                                 <span id="label-best">10px</span>
                             </div>
                             <div class="wrapper-info-best">
@@ -203,7 +205,7 @@ export function Main(){
 
                         <div class="item-best-post">
                             <div class="wrapper-img-best">
-                                <img src="https://i.ibb.co/y6LmR1F/wallpaperflare-com-wallpaper-55.jpg" alt="">
+                                <img class="img-lazy" data-src="https://i.ibb.co/y6LmR1F/wallpaperflare-com-wallpaper-55.jpg" alt="">
                                 <span id="label-best">10px</span>
                             </div>
                             <div class="wrapper-info-best">
@@ -214,7 +216,7 @@ export function Main(){
 
                         <div class="item-best-post">
                             <div class="wrapper-img-best">
-                                <img src="https://i.ibb.co/GxPpBvT/wallpaperflare-com-wallpaper-44.jpg" alt="">
+                                <img class="img-lazy" data-src="https://i.ibb.co/GxPpBvT/wallpaperflare-com-wallpaper-44.jpg" alt="">
                                 <span id="label-best">10px</span>
                             </div>
                             <div class="wrapper-info-best">
@@ -232,8 +234,8 @@ export function Main(){
 
             <div class="favorite-post">
                 <!-- Los mas votados -->         
-                <div class="item-favorite-post">
-                    <img src="https://i.ibb.co/sbvQC9K/Vuelve-el-anime-de-Bleach-en-2020-destacada-El-Palomitr-n.jpg" alt="">
+                <div class="item-favorite-post" data-idpost="Bleach-la-batalla-de-los-100-años">
+                    <img class="img-lazy" data-src="https://i.ibb.co/sbvQC9K/Vuelve-el-anime-de-Bleach-en-2020-destacada-El-Palomitr-n.jpg" alt="">
                 </div>
             </div>
 
@@ -249,55 +251,55 @@ export function Main(){
 
                 <div class="item-anime-web">
                     <div class="container-img">
-                        <img src="https://i.ibb.co/X87qRvb/imagen-2021-06-18-104304-1080x609.jpg" alt="">
+                        <img class="img-lazy" data-src="https://i.ibb.co/X87qRvb/imagen-2021-06-18-104304-1080x609.jpg" alt="">
                     </div>
                     <h2>Bleach Season17</h2>
                 </div>
                 <div class="item-anime-web">
                     <div class="container-img">
-                        <img src="https://i.ibb.co/X87qRvb/imagen-2021-06-18-104304-1080x609.jpg" alt="">
+                        <img class="img-lazy" data-src="https://i.ibb.co/X87qRvb/imagen-2021-06-18-104304-1080x609.jpg" alt="">
                     </div>
                     <h2>Bleach Season17</h2>
                 </div>
                 <div class="item-anime-web">
                     <div class="container-img">
-                        <img src="https://i.ibb.co/X87qRvb/imagen-2021-06-18-104304-1080x609.jpg" alt="">
+                        <img class="img-lazy" data-src="https://i.ibb.co/X87qRvb/imagen-2021-06-18-104304-1080x609.jpg" alt="">
                     </div>
                     <h2>Bleach Season17</h2>
                 </div>
                 <div class="item-anime-web">
                     <div class="container-img">
-                        <img src="https://i.ibb.co/X87qRvb/imagen-2021-06-18-104304-1080x609.jpg" alt="">
+                        <img class="img-lazy" data-src="https://i.ibb.co/X87qRvb/imagen-2021-06-18-104304-1080x609.jpg" alt="">
                     </div>
                     <h2>Bleach Season17</h2>
                 </div>
                 <div class="item-anime-web">
                     <div class="container-img">
-                        <img src="https://i.ibb.co/X87qRvb/imagen-2021-06-18-104304-1080x609.jpg" alt="">
+                        <img class="img-lazy" data-src="https://i.ibb.co/X87qRvb/imagen-2021-06-18-104304-1080x609.jpg" alt="">
                     </div>
                     <h2>Bleach Season17</h2>
                 </div>
                 <div class="item-anime-web">
                     <div class="container-img">
-                        <img src="https://i.ibb.co/X87qRvb/imagen-2021-06-18-104304-1080x609.jpg" alt="">
+                        <img class="img-lazy" data-src="https://i.ibb.co/X87qRvb/imagen-2021-06-18-104304-1080x609.jpg" alt="">
                     </div>
                     <h2>Bleach Season17</h2>
                 </div>
                 <div class="item-anime-web">
                     <div class="container-img">
-                        <img src="https://i.ibb.co/X87qRvb/imagen-2021-06-18-104304-1080x609.jpg" alt="">
+                        <img class="img-lazy" data-src="https://i.ibb.co/X87qRvb/imagen-2021-06-18-104304-1080x609.jpg" alt="">
                     </div>
                     <h2>Bleach Season17</h2>
                 </div>
                 <div class="item-anime-web">
                     <div class="container-img">
-                        <img src="https://i.ibb.co/X87qRvb/imagen-2021-06-18-104304-1080x609.jpg" alt="">
+                        <img class="img-lazy" data-src="https://i.ibb.co/X87qRvb/imagen-2021-06-18-104304-1080x609.jpg" alt="">
                     </div>
                     <h2>Bleach Season17</h2>
                 </div>
                 <div class="item-anime-web">
                     <div class="container-img">
-                        <img src="https://i.ibb.co/X87qRvb/imagen-2021-06-18-104304-1080x609.jpg" alt="">
+                        <img class="img-lazy" data-src="https://i.ibb.co/X87qRvb/imagen-2021-06-18-104304-1080x609.jpg" alt="">
                     </div>
                     <h2>Bleach Season17</h2>
                 </div>
